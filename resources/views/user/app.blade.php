@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Fikri Sport &mdash; Toko Olahraga Online </title>
+    <title>ADHY HIDAYAH &mdash; Toko Grosir Pakaian Termurah Se-Indonesia Timur </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -16,7 +16,7 @@
 
 
     <link rel="stylesheet" href="{{ asset('shopper') }}/css/aos.css">
-
+    <link rel="shortcut icon" href="{{ asset('shopper') }}/images/favicon.png" />
     <link rel="stylesheet" href="{{ asset('shopper') }}/css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
   </head>
@@ -38,7 +38,7 @@
 
             <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
               <div class="site-logo">
-                <a href="index.html" class="js-logo-clone">FikriSport</a>
+                <a href="index.html" class="js-logo-clone">TOKO ADHY HIDAYAH</a>
               </div>
             </div>
 
@@ -125,6 +125,7 @@
           <ul class="site-menu js-clone-nav d-none d-md-block">
             <li class="{{ Request::path() === '/' ? '' : '' }}"><a href="{{ route('home') }}">Beranda</a></li>
             <li class="{{ Request::path() === 'produk' ? '' : '' }}"><a href="{{ route('user.produk') }}">Produk</a></li>
+            <li class="{{ Request::path() === 'kontak' ? '' : '' }}"><a href="{{ route('tentangkami') }}">Tentang Kami</a></li>
             <li class="{{ Request::path() === 'kontak' ? '' : '' }}"><a href="{{ route('kontak') }}">Kontak</a></li>
           </ul>
         </div>
@@ -139,39 +140,25 @@
           <div class="col-lg-6 mb-5 mb-lg-0">
             <div class="row">
               <div class="col-md-12">
-                <h3 class="footer-heading mb-4">Navigations</h3>
+                <h3 class="footer-heading mb-4">LINK TAUTAN</h3>
               </div>
               <div class="col-md-6 col-lg-4">
                 <ul class="list-unstyled">
-                  <li><a href="#">Sell online</a></li>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">Shopping cart</a></li>
-                  <li><a href="#">Store builder</a></li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <ul class="list-unstyled">
-                  <li><a href="#">Mobile commerce</a></li>
-                  <li><a href="#">Dropshipping</a></li>
-                  <li><a href="#">Website development</a></li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <ul class="list-unstyled">
-                  <li><a href="#">Point of sale</a></li>
-                  <li><a href="#">Hardware</a></li>
-                  <li><a href="#">Software</a></li>
+                  <li><i></i><a href="#">Lowongan Kerja</a></li>
+                  <li><a href="#">Menjadi Mitra</a></li>
+                  <li><a href="#">Pusat Bantuan</a></li>
+                  <!-- <li><a href="#">ADHY HIDAYAH</a></li> -->
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-6">
             <div class="block-5 mb-5">
-              <h3 class="footer-heading mb-4">Contact Info</h3>
+              <h3 class="footer-heading mb-4">INFORMASI KONTAK</h3>
               <ul class="list-unstyled">
-                <li class="address">Jalan sukses menuju dunia akhirat</li>
-                <li class="phone"><a href="tel://23923929210">+62 3392 3929 210</a></li>
-                <li class="email">sport@gmail.com</li>
+                <li class="address">Jalan Irian No. 97 Makassar</li>
+                <li class="phone"><a href="tel://23923929210">+62 8232 1689 637</a></li>
+                <li class="email">support@adhy-hidayah.com</li>
               </ul>
             </div>
 
@@ -190,7 +177,7 @@
           <div class="col-md-12">
             <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+            Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> <a href="#" target="_blank">Adhy Hidayah</a> All rights reserved
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>

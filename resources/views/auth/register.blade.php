@@ -28,8 +28,8 @@
                 <div class="brand-logo">
                   <img src="{{ asset('adminassets') }}/assets/images/logo.svg">
                 </div>
-                <h4>New here?</h4>
-                <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
+                <h4>Pengguna Baru?</h4>
+                <h6 class="font-weight-light">Silahkan Registrasi Untuk Menikmati Belanja Murah</h6>
                 <form class="pt-3" method="POST" action="{{ route('register') }}">
                 @csrf
                   <div class="form-group">
@@ -67,13 +67,13 @@
                   <div class="mb-4">
                     <div class="form-check">
                       <label class="form-check-label text-muted">
-                        <input type="checkbox" class="form-check-input"> I agree to all Terms & Conditions </label>
+                        <input type="checkbox" class="form-check-input"> Saya Menyetujui Syarat & Ketentuan </label>
                     </div>
                   </div>
                   <div class="mt-3">
                     <button type="submit" class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn">Daftar</button>
                   </div>
-                  <div class="text-center mt-4 font-weight-light"> Already have an account? <a href="login.html" class="text-primary">Login</a>
+                  <div class="text-center mt-4 font-weight-light"> Sudah Mempunyai Akun? <a href="{{ route('login')}}" class="text-primary">Login</a>
                   </div>
                 </form>
               </div>

@@ -53,7 +53,7 @@
                   <div class="mt-3">
                     <button class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn" type="submit">SIGN IN</button>
                   </div>
-                  <div class="text-center mt-4 font-weight-light"> Belum Punya Akun? <a href="/register" class="text-primary">Buat</a>
+                  <div class="text-center mt-4 font-weight-light"> Belum Punya Akun? <a href="{{ route('register')}}" class="text-primary">Buat</a>
                   </div>
                 </form>
               </div>

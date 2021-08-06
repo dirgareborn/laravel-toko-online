@@ -21,5 +21,9 @@ class WelcomeController extends Controller
     public function kontak()
     {
         return view('user.kontak');
+
+    }public function tentangkami()
+    {
+        return view('user.tentangkami');
     }
 }

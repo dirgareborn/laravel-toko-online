@@ -10,6 +10,7 @@ class CheckoutController extends Controller
 {
     public function index()
     {
+        // dd('tex');
         //ambil session user id
         $id_user = \Auth::user()->id;
         //ambil produk apa saja yang akan dibeli user dari table keranjang
@@ -26,6 +27,7 @@ class CheckoutController extends Controller
             $berat = $k->weigth * $k->qty;
             $berattotal = $berattotal + $berat;
         }
+        
         //lalu ambil id kota si pelanngan
         $city = DB::table('alamat')->where('user_id',$id_user)->get();
         $city_destination =  $city[0]->cities_id;
